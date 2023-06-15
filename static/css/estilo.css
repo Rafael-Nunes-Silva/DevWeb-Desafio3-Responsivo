@@ -13,11 +13,12 @@ header img{
     min-width: 20%;
 }
 header span{
-    display: inline-block;
-
+    display: flex;
     align-self: center;
-
     margin-left: auto;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #barra{
